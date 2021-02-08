@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+    integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA=="
+    crossorigin="anonymous"></script>
+
+    <script language="javascript" type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.29/lib/p5.serialport.js"></script>
+
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="serialport"> 2 buttons and 2 Potentiometers <br> by Julian Mathews (with a lot of help from Tom Igoe) <br> <br> Select a serialport: <select id="portSelector"></select></section>    
+
+    <section id="controls"><h2>Controls 1</h2>
+        Power: <input type="button" id="power" value="off">
+        <span id ="powerVal"></span><br>
+        Fan Speed: <input type="range" id="fanSpeed" min="0" max="100" value="0">
+        <span id="fanSpeedVal"></span><br>
+    </section>
+
+    <section id="controls2"><h2>Controls 2</h2>
+        Power: <input type="button" id="switch" value="off">
+        <span id ="switchVal"></span><br>
+        Brightness: <input type="range" id="brightness" min="0" max="100" value="0">
+        <span id="brightnessVal"></span><br>
+    </section>
+
+</body>
+</html>

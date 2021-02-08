@@ -1,0 +1,21 @@
+input {
+    position: sticky;
+    left: 120px
+}
+
+span {
+    position: sticky;
+    left: 300px;
+}
+
+section#controls {
+    padding: 20px
+}
+
+section#controls2 {
+    padding: 20px
+}
+
+section#serialport {
+    padding: 20px
+}
