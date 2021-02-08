@@ -4,4 +4,4 @@ This project is built off of Tom Igoe's Repo: https://github.com/tigoe/html-for-
 
 It has many similar functionalities except that it has an additional pushbutton and an additional potentiometer.
 
-I'm creating this mostly for personal reference.
+In order to use this application, it requires arduino IDE, p5.serialcontrol, and your favorite coding editor.
